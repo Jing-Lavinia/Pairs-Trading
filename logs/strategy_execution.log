@@ -1,0 +1,138 @@
+2026-04-18 14:17:30,989 - [INFO] - __main__ - PHASE 0: CHECKING LOCAL DATA VAULT (OFFLINE MODE)
+2026-04-18 14:17:30,989 - [INFO] - __main__ - [!] Local data found. Skipping Binance API fetch to preserve exact backtest conditions for reproducibility.
+2026-04-18 14:17:30,989 - [INFO] - __main__ - Running intensive walk-forward analysis with ML clustering...
+2026-04-18 14:20:23,520 - [INFO] - __main__ - PHASE 0: CHECKING LOCAL DATA VAULT (OFFLINE MODE)
+2026-04-18 14:20:23,524 - [INFO] - __main__ - [!] Local data found. Skipping Binance API fetch to preserve exact backtest conditions for reproducibility.
+2026-04-18 14:20:23,524 - [INFO] - __main__ - PHASE 1: DYNAMIC DATA ASSEMBLY FROM LOCAL VAULT
+2026-04-18 14:20:23,524 - [INFO] - src.data_processor - Assembling market data matrix for 20 active tickers...
+2026-04-18 14:20:23,860 - [INFO] - src.data_processor - Matrix built successfully. Shape: (4320, 80)
+2026-04-18 14:20:23,862 - [INFO] - src.data_processor - Common Backtest Horizon: 2025-10-18 06:00:00 to 2026-04-16 05:00:00
+2026-04-18 14:20:23,886 - [INFO] - __main__ - Running intensive walk-forward analysis with ML clustering...
+2026-04-18 14:20:23,886 - [INFO] - src.stats_analysis - Walk-forward schedule: 22 Dynamic Windows
+2026-04-18 14:20:23,887 - [INFO] - src.stats_analysis - --- Training Window [1/22]: 2025-10-18 to 2025-11-17 ---
+2026-04-18 14:20:23,938 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:23,939 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:38,754 - [INFO] - src.stats_analysis - --- Training Window [2/22]: 2025-10-25 to 2025-11-24 ---
+2026-04-18 14:20:38,774 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:38,774 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:39,730 - [INFO] - src.stats_analysis - --- Training Window [3/22]: 2025-11-01 to 2025-12-01 ---
+2026-04-18 14:20:39,747 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:39,747 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:40,694 - [INFO] - src.stats_analysis - --- Training Window [4/22]: 2025-11-08 to 2025-12-08 ---
+2026-04-18 14:20:40,711 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:40,711 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:41,551 - [INFO] - src.stats_analysis - --- Training Window [5/22]: 2025-11-15 to 2025-12-15 ---
+2026-04-18 14:20:41,567 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:41,567 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:42,178 - [INFO] - src.stats_analysis - --- Training Window [6/22]: 2025-11-22 to 2025-12-22 ---
+2026-04-18 14:20:42,194 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:42,194 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:43,032 - [INFO] - src.stats_analysis - --- Training Window [7/22]: 2025-11-29 to 2025-12-29 ---
+2026-04-18 14:20:43,050 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:43,050 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:43,938 - [INFO] - src.stats_analysis - --- Training Window [8/22]: 2025-12-06 to 2026-01-05 ---
+2026-04-18 14:20:43,957 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:43,958 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:44,812 - [INFO] - src.stats_analysis - --- Training Window [9/22]: 2025-12-13 to 2026-01-12 ---
+2026-04-18 14:20:44,831 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:44,831 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:45,782 - [INFO] - src.stats_analysis - --- Training Window [10/22]: 2025-12-20 to 2026-01-19 ---
+2026-04-18 14:20:45,853 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:45,854 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:46,728 - [INFO] - src.stats_analysis - --- Training Window [11/22]: 2025-12-27 to 2026-01-26 ---
+2026-04-18 14:20:46,749 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:46,749 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:47,646 - [INFO] - src.stats_analysis - --- Training Window [12/22]: 2026-01-03 to 2026-02-02 ---
+2026-04-18 14:20:47,672 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:47,673 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:48,406 - [INFO] - src.stats_analysis - --- Training Window [13/22]: 2026-01-10 to 2026-02-09 ---
+2026-04-18 14:20:48,426 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:48,427 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:49,605 - [INFO] - src.stats_analysis - --- Training Window [14/22]: 2026-01-17 to 2026-02-16 ---
+2026-04-18 14:20:49,681 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:49,682 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:51,117 - [INFO] - src.stats_analysis - --- Training Window [15/22]: 2026-01-24 to 2026-02-23 ---
+2026-04-18 14:20:51,144 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:51,144 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:52,490 - [INFO] - src.stats_analysis - --- Training Window [16/22]: 2026-01-31 to 2026-03-02 ---
+2026-04-18 14:20:52,511 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 4 noisy stocks.
+2026-04-18 14:20:52,512 - [INFO] - src.stats_analysis -   [>] Generated 120 pair combinations from PCA clusters.
+2026-04-18 14:20:53,573 - [INFO] - src.stats_analysis - --- Training Window [17/22]: 2026-02-07 to 2026-03-09 ---
+2026-04-18 14:20:53,595 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:53,595 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:20:55,134 - [INFO] - src.stats_analysis - --- Training Window [18/22]: 2026-02-14 to 2026-03-16 ---
+2026-04-18 14:20:55,156 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 2 clusters. Masked 3 noisy stocks.
+2026-04-18 14:20:55,156 - [INFO] - src.stats_analysis -   [>] Generated 106 pair combinations from PCA clusters.
+2026-04-18 14:20:56,427 - [INFO] - src.stats_analysis - --- Training Window [19/22]: 2026-02-21 to 2026-03-23 ---
+2026-04-18 14:20:56,458 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 6 noisy stocks.
+2026-04-18 14:20:56,458 - [INFO] - src.stats_analysis -   [>] Generated 91 pair combinations from PCA clusters.
+2026-04-18 14:20:57,394 - [INFO] - src.stats_analysis - --- Training Window [20/22]: 2026-02-28 to 2026-03-30 ---
+2026-04-18 14:20:57,422 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 6 noisy stocks.
+2026-04-18 14:20:57,423 - [INFO] - src.stats_analysis -   [>] Generated 91 pair combinations from PCA clusters.
+2026-04-18 14:20:58,590 - [INFO] - src.stats_analysis - --- Training Window [21/22]: 2026-03-07 to 2026-04-06 ---
+2026-04-18 14:20:58,613 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 6 noisy stocks.
+2026-04-18 14:20:58,614 - [INFO] - src.stats_analysis -   [>] Generated 91 pair combinations from PCA clusters.
+2026-04-18 14:20:59,310 - [INFO] - src.stats_analysis - --- Training Window [22/22]: 2026-03-14 to 2026-04-13 ---
+2026-04-18 14:20:59,332 - [INFO] - src.stats_analysis -   [>] ML Clustering: Identified 1 clusters. Masked 5 noisy stocks.
+2026-04-18 14:20:59,332 - [INFO] - src.stats_analysis -   [>] Generated 105 pair combinations from PCA clusters.
+2026-04-18 14:21:00,243 - [INFO] - __main__ - PHASE 3: IN-SAMPLE GRID SEARCH OPTIMISATION
+2026-04-18 14:21:00,248 - [INFO] - src.backtest_strategy - Initializing JIT-compiled grid search engine (C-Level Performance) ...
+2026-04-18 14:21:04,842 - [INFO] - __main__ - --- IN-SAMPLE GRID SEARCH DIAGNOSTICS ---
+2026-04-18 14:21:04,843 - [INFO] - __main__ - Total pairs evaluated: 119
+2026-04-18 14:21:04,843 - [INFO] - __main__ - Pairs with EXACTLY $0 PnL (Threshold too high, no trades): 100
+2026-04-18 14:21:04,843 - [INFO] - __main__ - Pairs with STRICTLY NEGATIVE best PnL (Eaten by friction/stops): 2
+2026-04-18 14:21:04,843 - [INFO] - __main__ - Pairs with POSITIVE PnL (Passable): 17
+2026-04-18 14:21:04,843 - [INFO] - __main__ - --- TOP 10 PAIRS BY MAX IN-SAMPLE PNL ---
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   1. ('AVAX', 'XLM') | Best Thresh: 1.50σ | Max IS PnL: $7515.98 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   2. ('POL', 'ETC') | Best Thresh: 1.50σ | Max IS PnL: $3908.21 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   3. ('LTC', 'ATOM') | Best Thresh: 1.50σ | Max IS PnL: $3378.26 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   4. ('XRP', 'ETC') | Best Thresh: 1.50σ | Max IS PnL: $2566.93 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   5. ('XRP', 'DOGE') | Best Thresh: 1.50σ | Max IS PnL: $2549.75 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   6. ('LINK', 'XLM') | Best Thresh: 2.45σ | Max IS PnL: $1916.63 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   7. ('DOT', 'ETC') | Best Thresh: 1.50σ | Max IS PnL: $1848.90 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   8. ('DOT', 'LTC') | Best Thresh: 1.50σ | Max IS PnL: $1260.56 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   9. ('ETH', 'BNB') | Best Thresh: 1.50σ | Max IS PnL: $1159.94 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ -   10. ('AVAX', 'NEAR') | Best Thresh: 1.61σ | Max IS PnL: $1058.51 | [✅ PASS]
+2026-04-18 14:21:04,843 - [INFO] - __main__ - -----------------------------------------
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('AVAX', 'XLM') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('POL', 'ETC') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('LTC', 'ATOM') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('XRP', 'ETC') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('XRP', 'DOGE') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('LINK', 'XLM') | Threshold: 2.45σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('DOT', 'ETC') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('DOT', 'LTC') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('ETH', 'BNB') | Threshold: 1.50σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('AVAX', 'NEAR') | Threshold: 1.61σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('BNB', 'LINK') | Threshold: 2.24σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('ADA', 'POL') | Threshold: 2.13σ
+2026-04-18 14:21:04,844 - [INFO] - __main__ - [+] Selected for OOS: ('BTC', 'ETH') | Threshold: 1.92σ
+2026-04-18 14:21:04,845 - [INFO] - __main__ - [+] Selected for OOS: ('AVAX', 'LTC') | Threshold: 2.34σ
+2026-04-18 14:21:04,846 - [INFO] - __main__ - [+] Selected for OOS: ('SOL', 'XRP') | Threshold: 1.50σ
+2026-04-18 14:21:04,846 - [INFO] - __main__ - [+] Selected for OOS: ('DOT', 'XLM') | Threshold: 1.50σ
+2026-04-18 14:21:04,846 - [INFO] - __main__ - PHASE 4: OUT-OF-SAMPLE PNL SETTLEMENT & EVALUATION
+2026-04-18 14:21:04,846 - [INFO] - src.backtest_strategy - Generating final multi-asset portfolio matrix (JIT Accelerated)...
+2026-04-18 14:21:04,857 - [INFO] - src.backtest_strategy - Settling mark-to-market portfolio PnL...
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - 
+============================================================
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - INSTITUTIONAL STRATEGY PERFORMANCE REPORT (1H)
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - ============================================================
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - Test Period:                 2026-03-01 00:00:00 to 2026-04-16 05:00:00
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - Initial Capital:             $ 100,000.00
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - Total Profit:                $ 8,628.07
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - Total Return:                8.63%
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - Annualized Return (CAGR):    92.15%
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - Annualized Volatility:       23.93%
+2026-04-18 14:21:04,918 - [INFO] - src.backtest_strategy - ------------------------------------------------------------
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Sharpe Ratio:                3.77
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Sortino Ratio:               2.49
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Calmar Ratio:                27.37
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - ------------------------------------------------------------
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Max Drawdown:                -3.37%
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Profit Factor:               1.35
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Win Rate (Trade Bars):       48.78%
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - Total Active Trading Bars:   287
+2026-04-18 14:21:04,919 - [INFO] - src.backtest_strategy - ============================================================
+
+2026-04-18 14:21:04,919 - [INFO] - __main__ - PHASE 5: GENERATING CHARTS (Strictly Out-of-Sample)
+2026-04-18 14:21:09,466 - [INFO] - __main__ - [SUCCESS] Pipeline complete.
